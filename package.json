@@ -5,8 +5,10 @@
     "ng": "ng",
     "start": "ng serve -o",
     "build": "ng build",
+    "build:href": "ng build --base-href ./",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "new:folder": "mkdir temporal2"
   },
   "private": true,
   "dependencies": {
